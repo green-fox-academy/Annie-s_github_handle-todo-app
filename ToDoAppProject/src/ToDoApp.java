@@ -1,8 +1,4 @@
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.*;
-
 
 public class ToDoApp {
     public static void main(String[] args) throws Exception {
@@ -19,7 +15,7 @@ public class ToDoApp {
         Model model = new Model();
 
         List<String> keyArgument = new ArrayList<>(Arrays.asList("-l", "-a", "-r", "-c"));
-        final String additionalTask = "Feed the monkey";
+        final String additionalTask = "Vacumm the house";
         final int deleteIndex = 2;
         final String notNumber = "apple";
         final int checkIndex = 2;
